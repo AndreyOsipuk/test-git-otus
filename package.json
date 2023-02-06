@@ -1,0 +1,26 @@
+{
+  "name": "test-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyOsipuk/test-git-otus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyOsipuk/test-git-otus/issues"
+  },
+  "homepage": "https://github.com/AndreyOsipuk/test-git-otus#readme",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
