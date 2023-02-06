@@ -10,6 +10,7 @@ on:
 jobs:
   codesandbox-comment:
     name: Add codesandbox link comment
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - uses: mshick/add-pr-comment@v1
